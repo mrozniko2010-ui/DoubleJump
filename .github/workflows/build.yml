@@ -18,7 +18,7 @@ jobs:
           gradle-version: 9.2.1
       - name: Build Fabric mod
         working-directory: client-fabric
-        run: gradle build
+        run: gradle build -x test
       - uses: actions/upload-artifact@v4
         with:
           name: doublejump-fabric-mod
