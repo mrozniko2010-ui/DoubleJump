@@ -1,0 +1,11 @@
+{
+  "key.category.doublejump.main": "DoubleJump – podwójny skok",
+  "key.doublejump.trigger": "Podwójny skok (nieprzypisany = klawisz skoku)",
+  "key.doublejump.settings": "Otwórz ustawienia DoubleJump",
+  "doublejump.screen.title": "DoubleJump – ustawienia",
+  "doublejump.option.enabled": "Mod: %s",
+  "doublejump.option.strength": "Siła drugiego skoku: %s",
+  "doublejump.option.particles": "Cząsteczki: %s",
+  "doublejump.option.sound": "Dźwięk: %s",
+  "doublejump.screen.hint": "Aktywacja: %s (zmiana: Opcje → Sterowanie → Klawisze)"
+}

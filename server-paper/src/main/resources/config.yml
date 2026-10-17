@@ -1,0 +1,31 @@
+# Konfiguracja pluginu DoubleJump (strona SERWERA).
+# Ten plugin NIE omija antycheata. Jeśli używasz antycheata, skonfiguruj go zgodnie z jego
+# dokumentacją tak, aby akceptował pojedynczy skok w powietrzu - plugin nie ingeruje w inne pluginy.
+
+# Globalny przełącznik.
+enabled: true
+
+# Maksymalna siła drugiego skoku, jaką serwer zaakceptuje i ogłosi klientom (0.20 - 0.80).
+# 0.42 = tyle co zwykły skok w Minecrafcie.
+max-strength: 0.60
+
+# Minimalna liczba ticków (20 ticków = 1 s) w powietrzu przed drugim skokiem.
+# Chroni przed uruchomieniem skoku tuż po zejściu z krawędzi bloku.
+min-air-ticks: 4
+
+# Minimalny odstęp między dwoma zgłoszeniami skoku tego samego gracza (w milisekundach).
+cooldown-ms: 250
+
+# Światy, w których podwójny skok jest wyłączony.
+disabled-worlds: []
+
+# Co zrobić, gdy zgłoszenie skoku zostanie odrzucone przez walidację:
+# true  = cofnij gracza do ostatniej pozycji znanej serwerowi,
+# false = tylko zignoruj zgłoszenie (i zaloguj, gdy debug: true).
+resync-on-reject: false
+
+# Pokazuj efekty (cząsteczki + dźwięk) innym graczom w pobliżu.
+effects-for-others: true
+
+# Dodatkowe logi o odrzuconych zgłoszeniach.
+debug: false

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "doublejump",
+  "version": "${version}",
+  "name": "DoubleJump",
+  "description": "Podwójny skok dla Minecraft Java Edition. Mod kliencki z menu ustawień, cząsteczkami i dźwiękiem.",
+  "authors": [
+    "DoubleJump"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.doublejump.client.DoubleJumpClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
